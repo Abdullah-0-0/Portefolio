@@ -5,6 +5,30 @@
 body{
     overflow-x: hidden; /* empêche le scroll horizontal */
 }
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideInLeft {
+    from { opacity: 0; transform: translateX(-24px); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes pulse {
+    0%,100% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+}
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideInLeft {
+    from { opacity: 0; transform: translateX(-24px); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes pulse {
+    0%,100% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+}
 .left {
         background: #000;
         color: white;
@@ -29,6 +53,8 @@ body{
         border: 5px solid white;
         display: block;
         margin: 0 auto 20px;
+        transition: transform 260ms ease, box-shadow 260ms ease;
+        animation: fadeInUp 0.7s ease-out;
     }
 
     h2{
@@ -67,7 +93,8 @@ body{
         border-radius: 20px;
         flex-shrink: 0;
         max-width: 360px;
-        flex: 0 0 360px
+        flex: 0 0 360px;
+        animation : slideInLeft 0.8s ease-out;
     }
     .centrale {
     flex: 1;            /* prend toute la place restante */
@@ -83,6 +110,7 @@ body{
         border-radius: 20px;
         box-shadow: 0 0 20px rgba(0,0,0,0.1);
         flex-direction: column;
+        animation: fadeInUp 0.9s ease-out;
     }
     .contact-info div {
         margin-bottom: 15px;
@@ -119,11 +147,16 @@ body{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        transition: transform 220ms ease, box-shadow 220ms ease;
     }
         @media (max-width: 768px) {
         .container { grid-template-columns: 1fr; }
         .left { padding: 40px 30px; }
     }
+    .ref:hover { 
+    transform: translateY(-8px); 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06); 
+}
     .ref h4 {
     margin-bottom: 10px;
     /*margin-top: 10px;*/
