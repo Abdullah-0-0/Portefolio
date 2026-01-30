@@ -1,0 +1,24 @@
+* {
+    box-shadow: none;
+}
+.prem{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom:100px ;
+}
+.proj1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(216, 214, 211);
+    width: 500px;
+    height: 500px;
+    flex: 1;
+    text-align: center;
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex: 1;
+}
