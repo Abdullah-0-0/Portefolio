@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#f6fff4"/>
+  <rect x="60" y="60" width="1080" height="120" rx="8" fill="#34d399"/>
+  <rect x="60" y="220" width="1080" height="460" rx="8" fill="#fff" stroke="#e9f8ee"/>
+  <rect x="90" y="260" width="200" height="200" rx="8" fill="#eaffef"/>
+  <rect x="320" y="260" width="520" height="40" rx="6" fill="#eaffef"/>
+  <text x="100" y="120" fill="#fff" font-size="36" font-family="sans-serif">Aperçu: E‑commerce</text>
+</svg>

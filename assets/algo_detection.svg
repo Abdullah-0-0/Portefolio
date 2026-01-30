@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#fff8f3"/>
+  <rect x="60" y="60" width="1080" height="120" rx="8" fill="#ff8a65"/>
+  <rect x="60" y="220" width="1080" height="460" rx="8" fill="#fff" stroke="#ffe9e0"/>
+  <g fill="#fff4ec">
+    <rect x="90" y="260" width="200" height="120" rx="10"/>
+    <rect x="310" y="260" width="200" height="120" rx="10"/>
+    <rect x="530" y="260" width="200" height="120" rx="10"/>
+  </g>
+  <text x="100" y="120" fill="#fff" font-size="36" font-family="sans-serif">Aperçu: Algorithme</text>
+  <circle cx="900" cy="400" r="60" fill="#fff4ec" stroke="#ff8a65" stroke-width="6"/>
+  <text x="886" y="408" font-size="28" fill="#ff8a65">AI</text>
+</svg>
