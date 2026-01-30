@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
-  <rect width="100%" height="100%" fill="#fff9ff"/>
-  <rect x="60" y="60" width="1080" height="120" rx="8" fill="#a78bfa"/>
-  <rect x="60" y="220" width="1080" height="460" rx="8" fill="#fff" stroke="#f3eefd"/>
-  <circle cx="200" cy="380" r="80" fill="#f6efff"/>
-  <rect x="360" y="340" width="640" height="80" rx="12" fill="#f6efff"/>
-  <text x="100" y="120" fill="#fff" font-size="36" font-family="sans-serif">Aperçu: Jeu vidéo</text>
-</svg>
