@@ -105,7 +105,7 @@ body{
         display: flex;
         flex: 1;                       /* prend tout l’espace restant */
         min-width: 0;                 /* évite qu’elle devienne trop étroite */
-        background: white;
+        background: rgb(237, 237, 237);
         padding: 40px;
         border-radius: 20px;
         box-shadow: 0 0 20px rgba(0,0,0,0.1);
