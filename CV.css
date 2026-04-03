@@ -245,40 +245,6 @@ body{
     gap: 20px;
     }
 }
-@media print {
 
-  body {
-    background: white !important;
-    color: black !important;
-  }
-
-  /* Enlever le fond noir */
-  .header, .left, .sidebar, .contact {
-    background: white !important;
-    color: black !important;
-  }
-
-  /* Masquer éléments inutiles */
-  nav, footer, button {
-    display: none !important;
-  }
-
-  /* Mise en page A4 */
-  body {
-    width: 210mm;
-    margin: 10mm;
-  }
-
-  /* Éviter les coupures */
-  section, div {
-    page-break-inside: avoid;
-  }
-
-  /* Image profil */
-  img {
-    max-width: 120px;
-  }
-
-}
 
 
