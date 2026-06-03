@@ -92,7 +92,7 @@ body {
 }
 
 .sidebar nav a.active {
-    background: linear-gradient(90deg,#667eea,#764ba2);
+    background: linear-gradient(90deg,#c8c9d0,#00ff1a);
     color: white;
 }
 
