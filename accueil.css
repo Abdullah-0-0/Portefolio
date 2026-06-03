@@ -131,9 +131,25 @@ h6{
 .hero h1{font-size:34px;margin:0 0 8px 0;animation:fadeInUp 0.6s ease-out}
 .hero p{margin:0 0 24px 0;color:#444;animation:fadeInUp 0.8s ease-out}
 .hero-actions{position:absolute;top:0;right:0;}
-.button{display:inline-flex;align-items:center;justify-content:center;padding:12px 22px;border-radius:999px;text-decoration:none;font-weight:700;transition:all 180ms ease;}
-.button-primary{background:linear-gradient(90deg,#0f35dc,#764ba2);color:#fff;box-shadow:0 10px 30px rgba(15,53,220,0.16);}
-.button-primary:hover{transform:translateY(-2px);box-shadow:0 16px 32px rgba(15,53,220,0.2);}
+.button{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:12px 22px;
+    border-radius:999px;
+    text-decoration:none;
+    font-weight:700;
+    transition:all 180ms ease;
+}
+.button-primary{
+    background:linear-gradient(90deg,#667eea 0%, #e51616 100%);
+    color:#fff;
+    box-shadow:0 10px 30px rgba(15,53,220,0.16);
+}
+.button-primary:hover{
+    transform:translateY(-2px);
+    box-shadow:0 16px 32px rgba(15,53,220,0.2);
+}
 
 .profile-section {
     background: white;

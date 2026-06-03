@@ -144,7 +144,7 @@ body {
 }
 
 .project-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #00bbff 0%, #0011ff 100%);
     color: white;
     padding: 18px;
     display: flex;
