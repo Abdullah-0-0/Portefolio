@@ -294,14 +294,13 @@ body{
     }
 
     .profil_professionnelle p {
-        .profil_professionnelle p {
-    font-size: 1.1rem;
-    line-height: 1.5;
-    text-align: left;
-    word-spacing: normal;
-    letter-spacing: normal;
+        font-size: 1.1rem;
+        line-height: 1.5;
+        text-align: left;
+        word-spacing: normal;
+        letter-spacing: normal;
 }
-    }
+
 
     .name {
         font-size: 22px;
