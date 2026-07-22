@@ -210,76 +210,113 @@ body{
     /* Optionnel : petite amélioration mobile */
 @media (max-width: 900px) {
     body {
-        flex-direction: column;
-        padding: 10px;
+        padding: 0;
     }
-    
-    .partie-gauche {
-        flex: 1 1 auto;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .partie-gauche,
+    .centrale {
         width: 100%;
         max-width: none;
+        flex: none;
+        margin: 0;
+        padding: 0;
     }
-    
-    .centrale {
+
+    .partie-gauche,
+    .parti_centrale {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .partie-gauche {
         padding: 20px;
-        display: flex;
-        flex-direction: column;
     }
-    .parti_centrale{
-        display: flex;
-        flex-direction: column;
+
+    .parti_centrale {
+        padding: 30px 20px;
     }
 }
 @media (max-width: 575px) {
     .container {
-        margin: 0;         /* plus de marge haut/bas/auto */
-        padding: 0;        /* plus de padding latéral */
-        gap: 15px;         /* un peu moins d'espace entre les sections */
-    }
-    .partie-gauche {
-        border-radius: 10px;  /* optionnel : enlève les coins arrondis en haut pour un look plein écran */
+        width: 100%;
         margin: 0;
-        margin-top: 10px;
-        padding: 30px 20px; /* garde un peu d'air à l'intérieur */
+        padding: 15px;
+        gap: 20px;
     }
-    .experience_professionnelle h2{
-        font-size: 22px;
-        margin-bottom: 8px;
-    }
-    .profil_professionnelle h2{
-        font-size: 2.1rem;
-        margin-bottom: 8px;
-    }
-    .profil_professionnelle p{
-        font-size: 1.25rem;
-        line-height: 1.6;
-    }
+
+    .partie-gauche,
+    .centrale,
     .parti_centrale {
-        border-radius: 10px;  /* optionnel : plein écran aussi en bas */
+        width: 100%;
+        max-width: 100%;
         margin: 0;
-        padding: 30px 20px;
     }
-    .CURSUS-centrale h2 , .referent h2 {
+
+    .partie-gauche,
+    .parti_centrale {
+        border-radius: 12px;
+    }
+
+    .partie-gauche {
+        padding: 20px;
+    }
+
+    .parti_centrale {
+        padding: 25px 20px;
+    }
+
+    .experience_professionnelle h2,
+    .CURSUS-centrale h2,
+    .referent h2 {
         font-size: 22px;
         margin-bottom: 8px;
     }
-    .name{
-        font-size: 22px;
-        margin-bottom: 8px;
-    }
-    .ref{
-        background: #f9f9f9;
-        padding: 25px;
-        border-left: 4px solid #000;
+
+    .profil_professionnelle p,
+    .CURSUS-centrale p {
         text-align: left;
+        word-spacing: normal;
+        letter-spacing: normal;
     }
-    .ref h4 {
-    margin-bottom: 10px;
+
+    .profil_professionnelle h2 {
+        font-size: 2rem;
+        margin-bottom: 8px;
     }
+
+    .profil_professionnelle p {
+        .profil_professionnelle p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: left;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+    }
+
+    .name {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+
     .referent .projet {
-    display: grid;
-    grid-template-columns: 1fr; /* par défaut : 1 seule colonne (mobile first) */
-    gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .ref {
+        width: 100%;
+        padding: 20px;
     }
 }
 
