@@ -81,6 +81,51 @@ body{
         padding-bottom: 10px;
         display: inline-block;
     }
+    .experience_academique h2 a {
+        color: inherit;
+    }
+    .experience_academique h2 a:visited {
+        color: inherit;
+    }
+    .experience_academique h2 a:hover,
+    .experience_academique h2 a:focus,
+    .experience_academique h2 a:active {
+        color: inherit;
+    }
+    .experience_academique h2 a span {
+        transition: color 0.2s ease;
+    }
+    .experience_academique h2 a:hover span,
+    .experience_academique h2 a:focus span,
+    .experience_academique h2 a:active span {
+        color: #220dad;
+    }
+    .experience_academique h2 a span:nth-child(1) { transition-delay: 0ms; }
+    .experience_academique h2 a span:nth-child(2) { transition-delay: 35ms; }
+    .experience_academique h2 a span:nth-child(3) { transition-delay: 70ms; }
+    .experience_academique h2 a span:nth-child(4) { transition-delay: 105ms; }
+    .experience_academique h2 a span:nth-child(5) { transition-delay: 140ms; }
+    .experience_academique h2 a span:nth-child(6) { transition-delay: 175ms; }
+    .experience_academique h2 a span:nth-child(7) { transition-delay: 210ms; }
+    .experience_academique h2 a span:nth-child(8) { transition-delay: 245ms; }
+    .experience_academique h2 a span:nth-child(9) { transition-delay: 280ms; }
+    .experience_academique h2 a span:nth-child(10) { transition-delay: 315ms; }
+    .experience_academique h2 a span:nth-child(11) { transition-delay: 350ms; }
+    .experience_academique h2 a span:nth-child(12) { transition-delay: 385ms; }
+    .experience_academique h2 a span:nth-child(13) { transition-delay: 420ms; }
+    .experience_academique h2 a span:nth-child(14) { transition-delay: 455ms; }
+    .experience_academique h2 a span:nth-child(15) { transition-delay: 490ms; }
+    .experience_academique h2 a span:nth-child(16) { transition-delay: 525ms; }
+    .experience_academique h2 a span:nth-child(17) { transition-delay: 560ms; }
+    .experience_academique h2 a span:nth-child(18) { transition-delay: 595ms; }
+    .experience_academique h2 a span:nth-child(19) { transition-delay: 630ms; }
+    .experience_academique h2 a span:nth-child(20) { transition-delay: 665ms; }
+    .experience_academique h2 a span:nth-child(21) { transition-delay: 700ms; }
+    @media (prefers-reduced-motion: reduce) {
+        .experience_academique h2 a span {
+            transition: none;
+        }
+    }
     h3{
         font-size: 1.4rem;
         text-transform: uppercase;
@@ -288,7 +333,12 @@ body{
         font-size: 22px;
         margin-bottom: 8px;
     }
-    
+    .experience_academique h2 a:visited {
+       text-decoration: none;
+    }
+    .experience_academique h2 a:hover {
+        text-decoration: underline;
+    }
 
     .profil_professionnelle p,
     .CURSUS-centrale p {
