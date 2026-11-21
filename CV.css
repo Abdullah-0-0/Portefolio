@@ -40,6 +40,11 @@ body{
     line-height: 1.6;
     text-align: justify;
 }
+.job_academique li {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
 .left {
         background: #000;
         color: white;
@@ -184,6 +189,9 @@ body{
     .caracter{
         color: rgb(137, 152, 167);
     }
+    .caracter_academique{
+        color: rgb(137, 152, 167);
+    }
     .li_proj{
         display: flex;
         flex-direction: column;
@@ -206,7 +214,6 @@ body{
         margin-bottom: 15px;
         margin-top: 0px;
     }
-
     /* Optionnel : petite amélioration mobile */
 @media (max-width: 900px) {
     body {
@@ -276,10 +283,12 @@ body{
 
     .experience_professionnelle h2,
     .CURSUS-centrale h2,
+    .experience_academique h2,
     .referent h2 {
         font-size: 22px;
         margin-bottom: 8px;
     }
+    
 
     .profil_professionnelle p,
     .CURSUS-centrale p {
@@ -319,5 +328,18 @@ body{
     }
 }
 
+@media print {
+    .CURSUS-centrale p:last-child {
+        margin-bottom: 10px;
+    }
 
+    .experience_academique .caracter_academique {
+        margin-top: 8px;
+        margin-bottom: 0;
+    }
+
+    .job_academique ul {
+        margin-top: 6px;
+    }
+}
 
